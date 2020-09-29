@@ -1,0 +1,25 @@
+{
+  "name": "midea-uartsniffer",
+  "version": "0.1.0",
+  "author": "Rene Klootwijk <rene@klootwijk.org>",
+  "description": "Sniffer for the 'Midea' UART protocol ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reneklootwijk/midea-uartsniffer.git"
+  },
+  "dependencies": {
+    "serialport": "^9.0.1",
+    "winston": "^3.3.3"
+  },
+  "license": "MIT",
+  "main": "./index.js",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^6.2.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
